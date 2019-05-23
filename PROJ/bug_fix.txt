@@ -1,0 +1,22 @@
+Bug Fix.
+
+1. google style fix
+  - in command_line_processor.cc
+  - command_line_processor.h
+  - convolution_filter_motion_blur.h
+
+2. blur tool fix: blur tool Seg faulted.
+  - changed everything that is related to blur.
+3. UML error: fixed by what it said in the assessment.
+
+5. Motion Blur: wrong direction. changed kernel.
+  - changed kernel for motionblur in convolution_filter_motion_blur.cc
+
+6. convolution kernel: pointer never deleted. added setupfilter, cleanup filter
+                       made sure all the pointers were deleted after being used.
+
+7. Blur Tests : linked with #2. fixed blur, and it worked
+  - changed regression test and unittest
+
+9. Command line : didn't give me help message when it should. fixed it.
+  - added boolean function in command_line_processor.cc
