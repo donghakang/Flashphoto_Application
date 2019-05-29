@@ -1,8 +1,0 @@
-build
-*.local
-*.nfs*
-
-#ignore these folders
-web
-
-.DS_Store
